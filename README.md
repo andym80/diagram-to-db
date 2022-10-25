@@ -1,15 +1,14 @@
 ## Clinic Database/SQL
-We have created a relational database from a clinic.
+We have created a relational database from a clinic diagram.
 All the information was inserted into 'clinic' database classified by:
 
-- id
-- name
-- date of birth
-- escape_attempts
-- neutered
-- weight_Kg
+- Patients
+- Medical histories
+- Treatments
+- Invoices items
+- Invoices
 
-I have used PostgreSQL shell and pgAdmin4 to get a graphical view to sort and manage every data.
+We have used PostgreSQL shell and pgAdmin4 to get a graphical view to sort and manage every data.
 
 ## Tools
 PostgreSQL & pgAdmin 4
@@ -32,6 +31,11 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 - LinkedIn: [LinkedIn](https://linkedin.com/in/andres-menutti)
 
+👤 **ADISS TSEGA**
+
+- GitHub: [@adisst](https://github.com/adisst)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/adiss-tsega-5b1b4b1b3/)
+- Twitter: [@adisst](https://twitter.com/adisst)
 
 ## 🤝 Contributing
 
