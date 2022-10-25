@@ -17,6 +17,19 @@ ALTER TABLE treatments ADD CONSTRAINT pk_medical_histories_id FOREIGN KEY(medica
 ALTER TABLE treatments ADD COLUMN invoice_items_id INT;
 ALTER TABLE treatments ADD CONSTRAINT pk_invoice_items_id FOREIGN KEY (invoice_items_id) REFERENCES invoice_items(id);
 
+CREATE TABLE medical_histories_has_treatments (
+    medical_history_id int references medical_histories(id),
+    treatment_id int references treatments(id)
+    );
+
+CREATE INDEX ON medical_histories (patient_id);
+CREATE INDEX ON invoices (medical_history_id);
+CREATE INDEX ON invoice_items (invoice_id);
+CREATE INDEX ON invoice_items (treatment_id);
+CREATE INDEX ON medical_histories_has_treatments (medical_history_id);
+CREATE INDEX ON medical_histories_has_treatments (treatment_id);
+
+-- Path: schema_based_on_diagram.sql
 
 
 
