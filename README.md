@@ -30,9 +30,9 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 👤 **ADDIS TSEGA**
 
-- GitHub: [@adisst](https://github.com/adisst)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/adiss-tsega-5b1b4b1b3/)
-- Twitter: [@adisst](https://twitter.com/adisst)
+- GitHub: [@Aseadd](https://github.com/Aseadd)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/addis-tsega/)
+- Twitter: [@addis](https://twitter.com/@adaTsega)
 
 ## 🤝 Contributing
 
